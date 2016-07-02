@@ -1,0 +1,25 @@
+# Eclipse stuff
+.classpath
+.project
+.settings
+/eclipse
+.metadata/
+.recommenders/
+
+# Mac filesystem dust
+/.DS_Store
+
+# Intellij stuff
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Various other potential build files
+build
+bin
+release
+agitar
+dist
+manifest.mf
+.gradle/
