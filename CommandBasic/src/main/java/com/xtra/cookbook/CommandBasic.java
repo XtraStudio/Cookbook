@@ -16,6 +16,7 @@ public class CommandBasic {
         Core.initialize(this);
     }
 
+    @Listener
     public void onInit(GameInitializationEvent event) {
         CommandHandler.create(this);
     }
